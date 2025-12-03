@@ -610,7 +610,6 @@ const reportsService = {
       averageMonthlyRevenue,
       growthRate: growthRate * 100,
       confidenceLevel: Math.max(50, 90 - (Math.abs(growthRate) * 100))
-    }
 }
   },
 
