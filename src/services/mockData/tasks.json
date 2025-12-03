@@ -1,0 +1,358 @@
+[
+{
+    "Id": 1,
+    "title": "Design Homepage Mockups",
+    "description": "Create wireframes and high-fidelity mockups for the new homepage design",
+    "status": "in_progress",
+    "priority": "high",
+    "dueDate": "2024-01-15",
+    "createdAt": "2024-01-10T09:00:00Z",
+    "updatedAt": "2024-01-12T14:30:00Z",
+    "assignedTo": "Sarah Johnson",
+    "projectId": 1,
+    "clientId": 1,
+    "estimatedHours": 8,
+    "actualHours": 5.5,
+    "billable": true,
+    "hourlyRate": 85,
+    "timeEntries": [
+      {
+        "id": 1,
+        "date": "2024-01-15",
+        "startTime": "09:00",
+        "endTime": "11:30",
+        "duration": 2.5,
+        "description": "Wireframe creation and user flow design",
+        "billable": true,
+        "totalAmount": 212.50
+      },
+      {
+        "id": 2,
+        "date": "2024-01-14",
+        "startTime": "14:00",
+        "endTime": "17:00",
+        "duration": 3,
+        "description": "High-fidelity mockup development",
+        "billable": true,
+        "totalAmount": 255.00
+      }
+    ],
+    "tags": [
+      { "id": 1, "name": "Design", "color": "#3B82F6" },
+      { "id": 2, "name": "Frontend", "color": "#10B981" },
+      { "id": 3, "name": "High Priority", "color": "#EF4444" }
+    ],
+    "attachments": [
+      {
+        "id": 1,
+        "name": "homepage-wireframes.fig",
+        "size": "2.3 MB",
+        "type": "image/figma",
+        "uploadedAt": "2024-01-10T10:15:00Z",
+        "uploadedBy": "Sarah Johnson"
+      },
+      {
+        "id": 2,
+        "name": "design-requirements.pdf",
+        "size": "1.1 MB", 
+        "type": "application/pdf",
+        "uploadedAt": "2024-01-10T09:30:00Z",
+        "uploadedBy": "Mike Chen"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "author": "Mike Chen",
+        "content": "Great progress on the wireframes! The user flow looks intuitive.",
+        "createdAt": "2024-01-11T11:20:00Z",
+        "parentId": null
+      },
+      {
+        "id": 2,
+        "author": "Sarah Johnson", 
+        "content": "Thanks! I'm working on the high-fidelity designs next. Should have them ready by EOD tomorrow.",
+        "createdAt": "2024-01-11T13:45:00Z",
+        "parentId": 1
+      },
+      {
+        "id": 3,
+        "author": "Alex Rodriguez",
+        "content": "Can we add more emphasis on the CTA buttons in the hero section?",
+        "createdAt": "2024-01-12T09:15:00Z", 
+        "parentId": null
+      }
+    ]
+  },
+  {
+"Id": 2,
+    "title": "Implement User Authentication",
+    "description": "Set up login, registration, and password reset functionality",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "2024-01-12",
+    "createdAt": "2024-01-08T08:00:00Z",
+    "updatedAt": "2024-01-10T16:20:00Z",
+    "assignedTo": "Alex Rodriguez",
+    "projectId": 1,
+    "clientId": 1,
+    "estimatedHours": 12,
+    "actualHours": 0,
+    "billable": true,
+    "hourlyRate": 95,
+    "timeEntries": [],
+    "activeTimer": {
+      "Id": 1,
+      "startTime": "2024-01-15T10:00:00Z",
+      "description": "Working on OAuth integration",
+      "isPaused": false,
+      "pausedDuration": 0
+    },
+    "tags": [
+      { "id": 4, "name": "Backend", "color": "#8B5CF6" },
+      { "id": 5, "name": "Security", "color": "#F59E0B" },
+      { "id": 3, "name": "High Priority", "color": "#EF4444" }
+    ],
+    "attachments": [
+      {
+        "id": 3,
+        "name": "auth-flow-diagram.png",
+        "size": "856 KB",
+        "type": "image/png", 
+        "uploadedAt": "2024-01-08T09:45:00Z",
+        "uploadedBy": "Alex Rodriguez"
+      }
+    ],
+    "comments": [
+      {
+        "id": 4,
+        "author": "Mike Chen",
+        "content": "This is overdue - can we prioritize this for today?",
+        "createdAt": "2024-01-13T08:30:00Z",
+        "parentId": null
+      },
+      {
+        "id": 5,
+        "author": "Alex Rodriguez",
+        "content": "Yes, starting on this immediately. Should have OAuth integration done by EOD.",
+        "createdAt": "2024-01-13T09:00:00Z",
+        "parentId": 4
+      }
+    ]
+  },
+{
+    "Id": 3,
+    "title": "Database Schema Design",
+    "description": "Design and implement the database schema for user data and application entities",
+    "status": "completed",
+    "priority": "medium",
+    "dueDate": "2024-01-10",
+    "createdAt": "2024-01-05T10:00:00Z",
+    "updatedAt": "2024-01-09T17:45:00Z",
+    "completedAt": "2024-01-09T17:45:00Z",
+    "assignedTo": "Mike Chen",
+    "projectId": 1,
+    "clientId": 1,
+    "estimatedHours": 6,
+    "actualHours": 7.5,
+    "billable": false,
+    "hourlyRate": 0,
+    "timeEntries": [
+      {
+        "id": 3,
+        "date": "2024-01-08",
+        "startTime": "09:00",
+        "endTime": "13:00",
+        "duration": 4,
+        "description": "Database design and ERD creation",
+        "billable": false,
+        "totalAmount": 0
+      },
+      {
+        "id": 4,
+        "date": "2024-01-09",
+        "startTime": "10:00",
+        "endTime": "13:30",
+        "duration": 3.5,
+        "description": "Schema implementation and testing",
+        "billable": false,
+        "totalAmount": 0
+      }
+    ],
+    "tags": [
+      { "id": 4, "name": "Backend", "color": "#8B5CF6" },
+      { "id": 6, "name": "Database", "color": "#EC4899" }
+    ],
+    "attachments": [
+      {
+        "id": 4,
+        "name": "schema-diagram.sql",
+        "size": "3.2 KB",
+        "type": "text/sql",
+        "uploadedAt": "2024-01-07T14:20:00Z", 
+        "uploadedBy": "Mike Chen"
+      },
+      {
+        "id": 5,
+        "name": "erd-diagram.png",
+        "size": "1.8 MB",
+        "type": "image/png",
+        "uploadedAt": "2024-01-08T11:10:00Z",
+        "uploadedBy": "Mike Chen"
+      }
+    ],
+    "comments": [
+      {
+        "id": 6,
+        "author": "Sarah Johnson",
+        "content": "The schema looks comprehensive. Good work on the indexing strategy!",
+        "createdAt": "2024-01-09T12:30:00Z",
+        "parentId": null
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "title": "Mobile App Testing",
+    "description": "Comprehensive testing of mobile application across different devices and OS versions",
+    "status": "in_progress",
+    "priority": "medium", 
+    "dueDate": "2024-01-14",
+    "createdAt": "2024-01-11T09:30:00Z",
+    "updatedAt": "2024-01-13T10:15:00Z",
+    "assignedTo": "Lisa Wong",
+    "projectId": 2,
+    "clientId": 2,
+    "estimatedHours": 16,
+    "actualHours": 8.25,
+    "billable": true,
+    "hourlyRate": 90,
+    "tags": [
+      { "id": 7, "name": "Testing", "color": "#06B6D4" },
+      { "id": 8, "name": "Mobile", "color": "#84CC16" },
+      { "id": 9, "name": "QA", "color": "#6366F1" }
+    ],
+    "attachments": [
+      {
+        "id": 6,
+        "name": "test-cases.xlsx",
+        "size": "245 KB",
+        "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "uploadedAt": "2024-01-11T10:45:00Z",
+        "uploadedBy": "Lisa Wong"
+      },
+      {
+        "id": 7,
+        "name": "bug-report-screenshots.zip",
+        "size": "12.4 MB",
+        "type": "application/zip",
+        "uploadedAt": "2024-01-12T16:30:00Z", 
+        "uploadedBy": "Lisa Wong"
+      }
+    ],
+    "comments": [
+      {
+        "id": 7,
+        "author": "Lisa Wong",
+        "content": "Found several UI inconsistencies on Android devices. Creating detailed bug reports.",
+        "createdAt": "2024-01-12T14:20:00Z",
+        "parentId": null
+      },
+      {
+        "id": 8,
+        "author": "Alex Rodriguez",
+        "content": "Thanks for the thorough testing. I'll prioritize the Android fixes for tomorrow.",
+        "createdAt": "2024-01-12T15:45:00Z",
+        "parentId": 7
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "title": "API Documentation",
+    "description": "Create comprehensive API documentation with examples and integration guides",
+    "status": "todo",
+    "priority": "low",
+    "dueDate": "2024-01-18",
+    "createdAt": "2024-01-12T11:00:00Z",
+    "updatedAt": "2024-01-12T11:00:00Z",
+    "assignedTo": "Mike Chen",
+    "projectId": 2,
+    "clientId": 2,
+    "estimatedHours": 10,
+    "actualHours": 0,
+    "billable": true,
+    "hourlyRate": 75,
+    "tags": [
+      { "id": 10, "name": "Documentation", "color": "#64748B" },
+      { "id": 4, "name": "Backend", "color": "#8B5CF6" }
+    ],
+    "attachments": [],
+    "comments": [
+      {
+        "id": 9,
+        "author": "Sarah Johnson",
+        "content": "We should include interactive examples in the documentation. Maybe integrate with Postman?",
+        "createdAt": "2024-01-12T13:15:00Z",
+        "parentId": null
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "title": "Performance Optimization",
+    "description": "Optimize application performance, reduce bundle size, and improve loading times",
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2024-01-11",
+    "createdAt": "2024-01-07T08:00:00Z", 
+    "updatedAt": "2024-01-11T19:30:00Z",
+    "completedAt": "2024-01-11T19:30:00Z",
+    "assignedTo": "Alex Rodriguez",
+    "projectId": 3,
+    "clientId": 3,
+    "estimatedHours": 20,
+    "actualHours": 18.5,
+    "billable": true,
+    "hourlyRate": 95,
+    "tags": [
+      { "id": 11, "name": "Performance", "color": "#F97316" },
+      { "id": 2, "name": "Frontend", "color": "#10B981" },
+      { "id": 3, "name": "High Priority", "color": "#EF4444" }
+    ],
+    "attachments": [
+      {
+        "id": 8,
+        "name": "performance-audit.pdf",
+        "size": "4.7 MB",
+        "type": "application/pdf",
+        "uploadedAt": "2024-01-10T14:20:00Z",
+        "uploadedBy": "Alex Rodriguez"
+      },
+      {
+        "id": 9,
+        "name": "lighthouse-scores.png",
+        "size": "892 KB",
+        "type": "image/png",
+        "uploadedAt": "2024-01-11T18:45:00Z",
+        "uploadedBy": "Alex Rodriguez"
+      }
+    ],
+    "comments": [
+      {
+        "id": 10,
+        "author": "Mike Chen",
+        "content": "Excellent work! Loading times improved by 60%. The lazy loading implementation is particularly impressive.",
+        "createdAt": "2024-01-11T20:15:00Z",
+        "parentId": null
+      },
+      {
+        "id": 11,
+        "author": "Alex Rodriguez", 
+        "content": "Thanks! The code splitting really made a difference. Bundle size reduced from 2.8MB to 1.1MB.",
+        "createdAt": "2024-01-11T20:30:00Z",
+        "parentId": 10
+      }
+    ]
+  }
+]
